@@ -1,5 +1,5 @@
 # Azure影片轉srt字幕工具v3 (qtAzToSrt v3)
-**v3—20221003:更新。**
+**v3—20221003:更新**
 * 支援轉檔(Pydub)：目前測試可用的檔案包含 .wav .mp4 .avi .mpg (依賴FFmpeg)
 * 字級時間戳記 (WLTS) ：利用原文結果逗號分割，比對 WLTS 字級時間戳記，取出每一句的時間戳記。所以句子會比v2版的短。
 
@@ -35,7 +35,7 @@ https://www.796t.com/content/1544946186.html
 
 ------------
 # Azure video to srt subtitle tool v3 (qtAzToSrt v3)
-**v3-20221003:Updated.**
+**v3-20221003:Updated**
 * Support file conversion (Pydub): Currently available files for testing include .wav .mp4 .avi .mpg (depending on FFmpeg)
 * Word-level time stamp (WLTS): Use the original text results to separate commas, compare the WLTS word-level time stamps, and take out the time stamp of each sentence. So the sentence will be shorter than the v2 version.
 
