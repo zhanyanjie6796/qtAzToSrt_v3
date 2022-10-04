@@ -26,16 +26,16 @@
 **參考網站:**
 
 如何使用 Azure Speech to Text 和 Python SDK 獲取字級時間戳？
-https://stackoverflow.com/questions/56842391/how-to-get-word-level-timestamps-using-azure-speech-to-text-and-the-python-sdk
+> https://stackoverflow.com/questions/56842391/how-to-get-word-level-timestamps-using-azure-speech-to-text-and-the-python-sdk
 
 取得語音辨識結果 speech_config.request_word_level_timestamps()
-https://learn.microsoft.com/zh-tw/azure/cognitive-services/speech-service/get-speech-recognition-results?pivots=programming-language-python
+> https://learn.microsoft.com/zh-tw/azure/cognitive-services/speech-service/get-speech-recognition-results?pivots=programming-language-python
 
 讀取聲音資訊、輸出聲音（pydub）
-https://steam.oxxostudio.tw/category/python/example/pydub-sound-data.html
+> https://steam.oxxostudio.tw/category/python/example/pydub-sound-data.html
 
 python比較字串相似度。
-https://www.796t.com/content/1544946186.html
+> https://www.796t.com/content/1544946186.html
 
 ------------
 # Azure video to srt subtitle tool v3 (qtAzToSrt v3)
@@ -66,13 +66,13 @@ This program is a GUI graphical interface conversion subtitle tool written in py
 **Reference website:**
 
 How do I get word-level timestamps using Azure Speech to Text and the Python SDK?
-https://stackoverflow.com/questions/56842391/how-to-get-word-level-timestamps-using-azure-speech-to-text-and-the-python-sdk
+> https://stackoverflow.com/questions/56842391/how-to-get-word-level-timestamps-using-azure-speech-to-text-and-the-python-sdk
 
 Get speech recognition results speech_config.request_word_level_timestamps()
-https://learn.microsoft.com/en-tw/azure/cognitive-services/speech-service/get-speech-recognition-results?pivots=programming-language-python
+> https://learn.microsoft.com/en-tw/azure/cognitive-services/speech-service/get-speech-recognition-results?pivots=programming-language-python
 
 Read sound information, output sound (pydub)
-https://steam.oxxostudio.tw/category/python/example/pydub-sound-data.html
+> https://steam.oxxostudio.tw/category/python/example/pydub-sound-data.html
 
 python compare string similarity.
-https://www.796t.com/content/1544946186.html
+> https://www.796t.com/content/1544946186.html
