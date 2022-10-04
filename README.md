@@ -7,7 +7,7 @@
 > 
 > 作者：Jack
 
-**在【exe3PydubToWLTS】資料夾下面的 main.exe 檔是發佈測試的版本，可以直接使用。**
+**在【exe3PydubToWLTS】資料夾下面的【main.exe】檔是發佈測試的版本，可以直接使用。**
 
 **詳細的使用可以參考【程式說明：Azure影片轉srt字幕工具v3.docx】檔案。**
 
@@ -47,7 +47,7 @@ python比較字串相似度。
 > 
 > Author: Jack
 
-**The main.exe file under the 【exe3PydubToWLTS】 folder is the release test version and can be used directly.**
+**The 【main.exe】 file under the 【exe3PydubToWLTS】 folder is the release test version and can be used directly.**
 
 **For detailed usage, please refer to the 【程式說明：Azure影片轉srt字幕工具v3.docx】 file.**
 
