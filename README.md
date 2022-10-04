@@ -23,7 +23,8 @@
 - 【qtAzToSrt_SDK.py】：配合主程式，將繁瑣的程式碼包裝，讓主程式容易閲讀。
 
 ------------
-參考網站:
+**參考網站:**
+
 如何使用 Azure Speech to Text 和 Python SDK 獲取字級時間戳？
 https://stackoverflow.com/questions/56842391/how-to-get-word-level-timestamps-using-azure-speech-to-text-and-the-python-sdk
 
@@ -62,7 +63,8 @@ This program is a GUI graphical interface conversion subtitle tool written in py
 - [qtAzToSrt_SDK.py]: Cooperate with the main program, wrap the cumbersome code to make the main program easy to read.
 
 ------------
-Reference website:
+**Reference website:**
+
 How do I get word-level timestamps using Azure Speech to Text and the Python SDK?
 https://stackoverflow.com/questions/56842391/how-to-get-word-level-timestamps-using-azure-speech-to-text-and-the-python-sdk
 
