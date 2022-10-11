@@ -16,7 +16,7 @@
 
 程式核心是連接到微軟 Azure，上傳音頻檔取得字級時間戳記 WLTS(word level time stamps)，然後將原文結果用逗號分割，使用 python 的字串相似度比對套件，找出最佳的合并字組之時間戳記時段，進而產生相應字幕。
 
-這支程式是使用python寫的GUI圖形界面轉字幕工具，【轉換字幕】按鈕點擊後，程式會判斷是否為 .wav 音頻檔，是的話直接上傳 Azure + 轉換字幕，不是的話則先進行轉檔，利用 Pydub 套件來將影片檔案轉出 .wav 音頻檔再上傳 Azure + 轉換字幕，Pydub 套件依賴 FFmpeg 前面已有説明。 
+這支程式是使用python寫的GUI圖形界面轉字幕工具，【轉換字幕】按鈕點擊後，程式會判斷是否為 .wav 音頻檔，是的話直接上傳 Azure + 轉換字幕，不是的話則先進行轉檔，利用 Pydub 套件來將影片檔案轉出 .wav 音頻檔再上傳 Azure + 轉換字幕，Pydub 套件依賴 FFmpeg 前面已有説明。程式執行時如果不輸入 Azure Key / Region 的話可以只測試影片轉檔提取音頻wav的功能。
 
 - 【main.py】：主程式。圖形界面上各功能的主程式撰寫。
 - 【Ui_win.py】：圖形界面。vs code 配合 qt 設計去產生。
@@ -56,7 +56,7 @@ python比較字串相似度。
 
 The core of the program is to connect to Microsoft Azure, upload audio files to obtain word level time stamps (WLTS), then separate the original results with commas, and use python's string similarity comparison suite to find the best combined word. The time stamp period of the group, and then the corresponding subtitles are generated.
 
-This program is a GUI graphical interface conversion subtitle tool written in python. After clicking the [Convert Subtitles] button, the program will determine whether it is a .wav audio file. If it is, upload it directly to Azure + convert subtitles. If not, convert the file first. Use the Pydub package to convert the video file to a .wav audio file and upload the Azure + converted subtitles. The Pydub package relies on FFmpeg as described above.
+This program is a GUI graphical interface conversion subtitle tool written in python. After clicking the [Convert Subtitles] button, the program will determine whether it is a .wav audio file. If it is, upload it directly to Azure + convert subtitles. If not, convert the file first. Use the Pydub package to convert the video file to a .wav audio file and upload the Azure + converted subtitles. The Pydub package relies on FFmpeg as described above.If you do not enter the Azure Key / Region when the program is executed, you can only test the function of video conversion to extract audio wav.
 
 - [main.py]: The main program. Write the main program of each function on the graphical interface.
 - [Ui_win.py]: Graphical interface. VS code cooperates with qt design to generate.
